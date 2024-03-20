@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Node
+metadata:
+  annotations:
+    hello.world/patch: "patch-message"
+  labels:
+    role: "patch-role"
+  name: n2.hub.ocplab.k2rb.com
